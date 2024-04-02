@@ -6,7 +6,7 @@
       <a href="#home" class="text-white text-xl font-semibold">Hamza Mushtaq</a>
     </div>
     <div>
-      <ul class="flex text-white space-x-8">
+      <ul class="flex flex-wrap text-white space-x-8">
         <li><a href="#home" class="hover:text-gray-300">Home</a></li>
         <li><a href="#about" class="hover:text-gray-300">About</a></li>
         <li><a href="#portfolio" class="hover:text-gray-300">Portfolio</a></li>
@@ -24,8 +24,8 @@
     </p>
   </div>
 </section>
-<section class="grid place-items-center px-6 h-lvh" id="about">
-  <div class="container mx-auto">
+<section class="grid place-items-center px-6 md:h-auto lg:h-lvh" id="about">
+  <div class="container mx-auto py-6">
     <h2 class="text-3xl font-semibold mb-8 text-center">About Me</h2>
     <div
       class="flex flex-col md:flex-row items-center space-y-4 md:space-x-8 md:space-y-0"
@@ -56,9 +56,11 @@
   </div>
 </section>
 
-<section class="bg-gray-100 grid place-items-center h-lvh" id="portfolio">
-  <div class="container mx-auto">
-    <h2 class="text-3xl font-semibold mb-8 text-center mb-[100px]">
+<section class="bg-gray-100 grid place-items-center md:h-auto" id="portfolio">
+  <div class="container mx-auto py-6">
+    <h2
+      class="text-3xl font-semibold mb-4 md:mb-[20px] text-center lg:mb-[100px]"
+    >
       Portfolio
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
